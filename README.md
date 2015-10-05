@@ -32,5 +32,7 @@ npm install bower
 gulp build
 ```
 
-Also you could download project and open **build/index.html** in your browser. Or just open this link http://htmlpreview.github.io/?https://github.com/Viktori/Akqa_test/blob/master/build/index.html.
+Also you could download project and open **build/index.html** in your browser. 
+
+Or just open this link http://htmlpreview.github.io/?https://github.com/Viktori/Akqa_test/blob/master/build/index.html.
 
