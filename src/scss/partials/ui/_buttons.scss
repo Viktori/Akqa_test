@@ -1,0 +1,23 @@
+.btn {
+	font: 600 24px/1 $sansSerif;
+
+	display: block;
+
+	padding: 12px 10px;
+
+	text-decoration: none;
+
+	color: #fff;
+	border-radius: 10px;
+	background-color: #006;
+	box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .5);
+	&:hover {
+		color: #fff;
+		background-color: #33f;
+	}
+	&:active {
+		position: relative;
+		top: 1px;
+		left: 1px;
+	}
+}

@@ -1,0 +1,133 @@
+	<section class="bskt">
+	<div class="container">
+		<h1 class="bskt-heading">Your Basket</h1>
+		<p class="bskt-descr">Items you have added to your basket are shown below.</p>
+		<p class="bskt-descr">Adjust the quantities or remove items before continuing your purchase.</p>
+
+		<div class="bskt-form">
+			<!-- header Row -->
+			<div class="bskt-form-head">
+				<div class="bskt-col bskt-col-name">Product</div>
+				<div class="bskt-col bskt-col-val">Price</div>
+				<div class="bskt-col bskt-col-val">Qty</div>
+				<div class="bskt-col bskt-col-val">Cost</div>
+				<div class="bskt-col bskt-col-val last"></div>
+			</div>
+
+			<!-- empty Row -->
+			<div class='bsqt-empty-message'>Your cart is empty.</div>
+
+			<!-- item rows -->
+			<div class="bskt-form-values">
+				<div class="bskt-form-row">
+					<div class="bskt-col bskt-col-name">Cotton T-Shirt, Medium</div>
+					<div class="bskt-col bskt-col-val bskt-col-price">
+						<span class="bskt-cur">£</span>
+						<span class="bskt-prc">1.99</span>
+					</div>
+					<div class="bskt-col bskt-col-val">
+						<div class="bskt-range">
+							<span class="bskt-range-up">+</span>
+							<span class="bskt-range-down">-</span>
+						</div>
+
+						<input class="bskt-input" value="1" type="text" />
+					</div>
+					<div class="bskt-col bskt-col-val">
+						<span class="bskt-cur">£</span>
+						<span class="bskt-cst">0</span>
+					</div>
+					<div class="bskt-col bskt-col-val last">
+						<span class="bskt-del" title="Remove">Remove</span>
+					</div>
+				</div>
+				<div class="bskt-form-row even">
+					<div class="bskt-col bskt-col-name">Baseball Cap, One Size</div>
+					<div class="bskt-col bskt-col-val bskt-col-price">
+						<span class="bskt-cur">£</span>
+						<span class="bskt-prc">2.99</span>
+					</div>
+					<div class="bskt-col bskt-col-val">
+						<div class="bskt-range">
+							<span class="bskt-range-up">+</span>
+							<span class="bskt-range-down">-</span>
+						</div>
+						
+						<input class="bskt-input" value="2" type="text" />
+					</div>
+					<div class="bskt-col bskt-col-val">
+						<span class="bskt-cur">£</span>
+						<span class="bskt-cst">0</span>
+					</div>
+					<div class="bskt-col bskt-col-val last">
+						<span class="bskt-del" title="Remove">Remove</span>
+					</div>
+				</div>
+				<div class="bskt-form-row">
+					<div class="bskt-col bskt-col-name">Swim Shorts, Medium</div>
+					<div class="bskt-col bskt-col-val bskt-col-price">
+						<span class="bskt-cur">£</span>
+						<span class="bskt-prc">3.99</span>
+					</div>
+					<div class="bskt-col bskt-col-val">
+						<div class="bskt-range">
+							<span class="bskt-range-up">+</span>
+							<span class="bskt-range-down">-</span>
+						</div>
+						
+						<input class="bskt-input" value="1" type="text" />
+					</div>
+					<div class="bskt-col bskt-col-val">
+						<span class="bskt-cur">£</span>
+						<span class="bskt-cst">0</span>
+					</div>
+					<div class="bskt-col bskt-col-val last">
+						<span class="bskt-del" title="Remove">Remove</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- subTotal row -->
+			<div class="bskt-form-subRows">
+				<div class="bskt-form-row subRow">
+					<div class="bskt-col bskt-col-name">Subtotal</div>
+					<div class="bskt-col bskt-col-val">&nbsp;</div>
+					<div class="bskt-col bskt-col-val">&nbsp;</div>
+					<div class="bskt-col bskt-col-val bskt-col-price">
+						<span class="bskt-cur">£</span>
+						<span id="subTotal" class="bskt-cst">0</span>
+					</div>
+					<div class="bskt-col bskt-col-val"></div>
+				</div>
+				<div class="bskt-form-row subRow">
+					<div class="bskt-col bskt-col-name">VAT @ 20%</div>
+					<div class="bskt-col bskt-col-val">&nbsp;</div>
+					<div class="bskt-col bskt-col-val">&nbsp;</div>
+					<div class="bskt-col bskt-col-val bskt-col-price">
+						<span class="bskt-cur">£</span>
+						<span id="vatTotal" class="bskt-cst">0</span>
+					</div>
+					<div class="bskt-col bskt-col-val"></div>
+				</div>
+			</div>
+
+			<!-- total Row -->
+			<div class="bskt-form-row totalRow strong">
+				<div class="bskt-col bskt-col-name">Total Cost</div>
+				<div class="bskt-col bskt-col-val">&nbsp;</div>
+				<div class="bskt-col bskt-col-val">&nbsp;</div>
+				<div class="bskt-col bskt-col-val bskt-col-price">
+					<span class="bskt-cur">£</span>
+					<span id="allTotal" class="bskt-cst">0</span>
+				</div>
+				<div class="bskt-col bskt-col-val"></div>
+			</div>
+
+			<div class="bskt-subm">
+				<a id="sbmtBskt" class="btn" href="#">
+					<span>Buy Now »<span>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>

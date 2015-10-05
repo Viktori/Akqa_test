@@ -1,0 +1,18 @@
+// Third party
+@import 'partials/normalize'; // Normalize.css
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif); // Droid Font
+
+
+// Custom
+@import 'partials/variables';
+@import 'partials/base';
+
+// UI Elements
+@import 'partials/ui/buttons';
+
+// Sectionsß
+@import 'partials/header';
+@import 'partials/content';
+@import 'partials/footer';
+
+@import 'partials/responsive';

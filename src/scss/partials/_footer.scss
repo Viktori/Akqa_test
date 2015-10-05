@@ -1,0 +1,21 @@
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	position: relative;
+
+	min-width: 320px;
+	height: 40px;
+	margin: -41px auto 0;
+
+	color: #fff;
+	border-top: 1px solid $b-color;
+	background: $s-color
+}
+
+.footer-cr {
+	line-height: 40px;
+	font-size: 12px;
+
+	margin: 0;
+	padding: 0 20px;
+}
